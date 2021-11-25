@@ -1,5 +1,6 @@
 import "./navbar.css";
 import logo from "../../assets/img/frisbix.png";
+import CartWidget from "./CartWidget/CartWidget";
 
 
 const Navbar = ({color}) => {
@@ -17,6 +18,7 @@ const Navbar = ({color}) => {
                 <a className="nav-btn" href="index.html">Productos</a>
                 <a className="nav-btn" href="index.html">Nosotros</a>
                 <a className="nav-btn" href="index.html">Contacto</a>
+                <CartWidget/>
             </div>
 
         </div>

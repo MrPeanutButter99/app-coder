@@ -1,0 +1,10 @@
+.itemListContainer {
+    display: flex;
+    justify-content: center;
+}
+
+div h2.ItemListGreeting {
+    font-family: 'Poppins',sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
