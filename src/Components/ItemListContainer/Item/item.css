@@ -1,0 +1,23 @@
+.item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem 1rem;
+    box-sizing: border-box;
+    border: #e1e1e1 solid 1px;
+}
+
+.item-title {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 2px;
+}
+
+.item-img {
+    max-width: 240px;
+}
+
+.item-description-container{
+    text-align: center;
+}
